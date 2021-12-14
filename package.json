@@ -1,0 +1,29 @@
+{
+  "name": "my-readme-crawler-node",
+  "version": "1.0.0",
+  "description": "readme crawler for github readme file to find the list of links",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ]
+  },
+  "author": "Prithiviraj",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^17.0.0",
+    "node-fetch": "^2.6.1",
+    "parse-github-url": "^1.0.2",
+    "turndown": "^7.1.1",
+    "yaspeller": "^7.0.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
